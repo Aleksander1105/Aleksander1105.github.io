@@ -32,4 +32,4 @@ $(document).ready(function() {
     $('.trigger').click(function() {
         getQuote();
     })
-});
+});s
