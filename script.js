@@ -8,9 +8,9 @@ function getQuote() {
 }
 
 function createTweet(input) {
-	//if (!input.length) {
-	//	throw new Error('response is not a support type of data');
-	//}
+	if (!input.length) {
+		throw new Error('response is not a support type of data');
+	}
 	var data = input[0];
 
 	var quoteText = $(data.content).text().trim();
